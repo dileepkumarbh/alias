@@ -6,7 +6,7 @@ Alias Validator is a tool designed to streamline the content PR and individual d
 
 
   * ## Accessing Alias Validator
-    * Open your web browser and navigate to the following URL: https://balu-phanendra-k.github.io/alias/ 
+    * Open your web browser and navigate to the following URL: https://dileepkumarbh.github.io/alias/
 
  * ## Main Interface
    * Upon reaching the site, you'll encounter a clean and user-friendly interface with a single textarea.
