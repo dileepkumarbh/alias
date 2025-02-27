@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encrypted.css">
+    <title>PR Optimizer</title>
+    <link rel="shortcut icon" type="image/png" href="icc.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	
+</head>
+<body>
+<h5><mark1>Note: Alias inside MSO code are also considered as duplicates. Please ignore them in case an error shows up.</mark1></h5>
+<a href="https://github.com/Balu-Phanendra-K/alias" target="_blank" id="topRightButton">
+        <i class="fab fa-github"></i> 
+        Visit GitHub
+    </a>
+
+    <div class="container">
+        <h1><mark>Quick Peer Review Optimizer</mark></h1>
+        <textarea id="htmlInput" placeholder="Paste your HTML code here"></textarea></br>
+        <button id="checkButton"><b>Validate</b></button>
+	<button id="previewBtn" onclick="togglePreview()">Preview</button>
+	<button id="printAliasesButton"><b>List Aliases & Links</b></button>
+        <div id="result"></div><br>
+	<div id="preview"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="list.js"></script>
+  <script src="preview.js"></script>
+</body>
+</html>
